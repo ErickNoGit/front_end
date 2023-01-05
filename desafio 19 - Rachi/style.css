@@ -1,0 +1,8 @@
+/* padronização dos links  */
+/* organizando home */
+@import url("./assets/css/home/global.css");
+@import url("./assets/css/home/header.css");
+@import url("./assets/css/home/main.css");
+
+/* corpo css */
+@import url("./assets/css/corpo/main2.css");

@@ -1,0 +1,225 @@
+/* main 2 corpo 4 */
+/* titulo e paragrafo */
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-2 h1 {
+    text-align: center;
+    color: #293145;
+    padding: 1rem 0 0 0;
+}
+
+.texto-br-1 {
+    text-align: center;
+    color: #6E7275;
+}
+
+/* banners */
+/* caixa azul para primeira e ultima */
+/* caixa azul escura para o meio */
+
+.grid-main-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: space-around;
+    width: 80%;
+    margin: 3rem 0 1rem 0;
+}
+
+
+.caixa-azul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22rem;
+    background-color: #EFF8FF;
+    padding: 0 15px;
+    border-radius: 14px;
+    border: #daedfc solid 1px;
+    text-align: center;
+}
+
+.caixa-azul h3 {
+    font-family: 'sora';
+    color: #293145;
+    font-size: 1.2rem;
+}
+
+.grid-preco {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+
+.rs {
+    font-family: 'Roboto';
+    color: #293145;
+    place-self: start end;
+    font-weight: 700;
+}
+
+.numero {
+    font-family: 'Roboto';
+    color: #293145;
+    font-size: 2.3rem;
+    font-weight: 700;
+
+}
+
+.mes {
+    font-family: 'Roboto';
+    place-self: end start;
+    font-weight: 700;
+    color: #293145;
+}
+
+.paragrafo-cinza {
+    line-height: 1.2;
+    color: #6E7275;
+}
+
+/* botão assinar */
+
+.span-btn-assinar {
+    display: grid;
+    width: 65%;
+    background-color: #0F9AFE;
+    border-radius: 30px;
+}
+
+.span-btn-assinar a {
+    color: #fff;
+    padding: 0;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.span-btn-assinar a:hover {
+    background-color: lightblue;
+    color: #0F9AFE;
+    border-radius: 30px;
+}
+
+/* caixa do meio azul escura */
+
+.caixa-azul-escuro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22rem;
+    background-color: #2e3649;
+    padding: 0 15px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.caixa-azul-escuro h3 {
+    font-family: 'sora';
+    color: #fff;
+    font-size: 2rem;
+}
+
+.caixa-azul-escuro h4 {
+    padding: 0 2.2rem;
+    margin-top: 8px;
+    font-size: 10px;
+    color: #fff;
+    background-color: #0F9AFE;
+    border-radius: 30px;
+}
+
+.grid-preco-branco {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    margin-bottom: 1.7rem;
+}
+
+.rs-branco {
+    font-family: 'Roboto';
+    color: #fff;
+    place-self: start end;
+    font-weight: 700;
+}
+
+.numero-branco {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 700;
+
+}
+
+.mes-branco {
+    font-family: 'Roboto';
+    place-self: end start;
+    font-weight: 700;
+    color: #fff;
+}
+
+.paragrafo-cinza-meio {
+    line-height: 1.2;
+    color: #DBDBDB;
+    margin-bottom: 1.3rem;
+}
+
+/* botão assinar */
+
+.span-btn-assinar-escuro {
+    display: grid;
+    width: 65%;
+    background-color: #0F9AFE;
+    border-radius: 30px;
+    margin-bottom: 1.2rem;
+}
+
+.span-btn-assinar-escuro a {
+    color: #fff;
+    padding: 0;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.span-btn-assinar-escuro a:hover {
+    background-color: lightblue;
+    color: #0F9AFE;
+    border-radius: 30px;
+}
+
+@media (max-width: 850px) {
+    .grid-main-2 {
+        display: inline-block;
+    }
+
+    .caixa-azul {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .paragrafo-cinza {
+        width: 80%;
+    }
+
+    .paragrafo-cinza-meio {
+        width: 80%;
+    }
+}
+
+@media (max-width: 280px) {
+    .main-2 h1 {
+        font-size: 1.3rem;
+    }
+
+    .texto-br-1 {
+        line-height: 1;
+        font-size: .8rem;
+    }
+}

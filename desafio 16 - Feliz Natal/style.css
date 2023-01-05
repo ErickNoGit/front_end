@@ -1,0 +1,11 @@
+/* links da pasta css */
+@import url("./css/global_reset.css");
+@import url("./css/header.css");
+
+/* corpo da pág*/
+@import url("./css/main.css");
+@import url("./css/aside.css");
+@import url("./css/section.css");
+
+/* rodapé com as redes */
+@import url("./css/footer.css");

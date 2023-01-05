@@ -1,0 +1,58 @@
+.main-color {
+  background-color: var(--dark-200);
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.main-div {
+  color: var(--white);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-div h1 {
+  font-family: 'Mukta';
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.main-div p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .main-div h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .main-color {
+    padding: 4rem 0;
+  }
+
+  .main-div {
+    width: 60%;
+  }
+  
+  .main-div h1 {
+    font-size: 2rem;
+  }
+
+  .main-div p {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .main-div {
+    width: auto;
+  }
+  .main-div p {
+    font-size: .85rem;
+  }
+}

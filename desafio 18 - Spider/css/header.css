@@ -1,0 +1,52 @@
+/* filhos do header */
+.header-div {
+  display: flex;
+  padding: .2rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-logo {
+  display: block;
+  margin-left: 2rem;
+}
+
+.btn-logo img {
+  object-fit: contain;
+  display: block;
+}
+
+.header-span {
+  display: block;
+}
+
+.header-span img {
+  object-fit: contain;
+  display: block;
+}
+
+.header-ol {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.btn-list {
+  position: relative;
+  height: 100%;
+}
+
+.btn-list::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: var(--branco);
+  position: absolute;
+  bottom: 1px;
+  transition: .4s;
+}
+
+.btn-list:hover::after {
+  width: 100%;
+}

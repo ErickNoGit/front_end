@@ -1,0 +1,88 @@
+/* div de desenvolvimento de sistemas */
+.p-red {
+  background-color: var(--red);
+  /* para herdar */
+  color: var(--white);
+  font-family: 'Mukta';
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 2rem 0;
+}
+
+/* main principal em grid */
+.div-grid-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: 1100px;
+  margin: 7rem auto;
+  padding: 0 2rem;
+  column-gap: 50px;
+}
+
+.div-grid-main span {
+  height: 450px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--red);
+  color: var(--white);
+  /* para herdar */
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: 'Mukta';
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+/* container direito */
+.main-ul-block,
+.main-ul-block:nth-child(1) {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: .7rem 0;
+}
+
+.main-ul-block ol {
+  display: grid;
+  row-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.main-ul-block ol li {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.red-div {
+  color: var(--red);
+  padding: .2rem 0;
+}
+
+@media (max-width: 800px) {
+  .p-red {
+    /* para herdar */
+    font-size: 1.5rem;
+  }
+
+  .div-grid-main {
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    margin: 3rem auto;
+  }
+
+  .div-grid-main span {
+    height: 250px;
+    width: 100%;
+    /* para herdar */
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+}

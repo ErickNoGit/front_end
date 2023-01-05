@@ -1,0 +1,48 @@
+/* introdução com foto da taça */
+.main-back-img {
+  background-image:linear-gradient(#c02352a7, #b6355c7d), url(../../img/padroes/wallpaper.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-span {
+  display: block;
+  width: 20%;
+}
+
+@media (max-width: 800px) {
+  main {
+    background-size: contain;
+  }
+  .main-div {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    background-size: cover;
+  }
+  
+  .main-span {
+    width: 30%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .main-span {
+    width: 40%;
+  }
+
+}

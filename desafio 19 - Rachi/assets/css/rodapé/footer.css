@@ -1,0 +1,19 @@
+/* rodapé */
+
+footer {
+    background-color: #f4faff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: #293145;
+}
+
+@media (max-width: 420px) {
+    footer p {
+        font-size: .9rem;
+    }
+}

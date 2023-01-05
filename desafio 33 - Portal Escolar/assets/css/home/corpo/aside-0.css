@@ -1,0 +1,36 @@
+.aside-dad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-ul {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.aside-ul li {
+  padding: 2.5rem 1.5rem;
+  color: var(--white);
+}
+
+.li-gray {
+  background-color: var(--gray);
+}
+
+.li-red {
+  background-color: var(--red);
+}
+
+.li-purple {
+  background-color: var(--purple);
+}
+
+@media (max-width: 600px) {
+  .aside-ul {
+    display: none;
+  }
+}

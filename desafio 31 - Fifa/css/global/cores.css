@@ -1,0 +1,46 @@
+/* cores com classes padrões */
+:root {
+  --vermelho: #FF0000;
+  --vinho: #8D1B3D;
+  --vinho-light: #b43359;
+  --escuro: #1F1E1E;
+  --escuro-light: #3C3939;
+  --cinza-borda: #D7D7D7;
+  --white: #FFFFFF;
+  --white-200: #F4F4F4;
+}
+
+/* classes padões para cor e font */
+
+.cor-escuro {
+  color: var(--escuro);
+}
+
+.cor-escuro-light {
+  color: var(--escuro-light);
+}
+
+.cor-white {
+  color: var(--white);
+}
+
+.cor-vinho {
+  color: var(--vinho);
+}
+
+.back-vinho {
+  background-color: var(--vinho);
+}
+
+.back-cinza {
+  background: var(--white-200);
+}
+
+
+
+.titulos {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--escuro);
+}

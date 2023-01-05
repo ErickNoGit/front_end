@@ -1,0 +1,69 @@
+.article {
+    background-color: #3e3f3f;
+    background-image: url("../imgs/pc.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    height: 17rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.div-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contato {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.descricao {
+    color: #DBDBDB;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.email-btn p {
+    display: inline-block;
+    color: #6E7275;
+    border-bottom: #6E7275 solid 2px;
+    width: 15rem;
+}
+
+.btn-enviar {
+    background-color: #0F9AFE;
+    color: #fff;
+    font-size: .9rem;
+    transition: .3s;
+    padding: 0 1.8rem;
+    border-radius: 30px;
+    margin: 1rem 10px;
+}
+
+.btn-enviar:hover {
+    background-color: lightblue;
+    color: #0F9AFE;
+}
+
+@media (max-width: 550px) {
+    .div-pai {
+        flex-direction: column;
+    }
+    .email-btn {
+        flex-direction: column;
+    }
+}

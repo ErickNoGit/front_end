@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+ol,
+nav,
+body,
+a,
+section,
+div,
+span,
+aside,
+button,
+footer,
+main {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: none;
+  font-family: 'Sora';
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+a {
+  color: var(--branco);
+  transition: .3s;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../img/spider-man-4k.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.body-div {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.grid-a {
+  grid-column: 2 / 6;
+  grid-row: 1;
+  background-color: var(--preto-gradient);
+}
+
+.grid-b {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  background-color: var(--preto-gradient);
+}
+
+.grid-c {
+  grid-column: 2 / 6;
+  grid-row: 2;
+}
+
+
+/* cores padrão */
+:root {
+  --vermelho: #EC111A;
+  --preto: #1D1D1D;
+  --preto-gradient: #191919c5;
+  --branco: #F9F9F9;
+  --branco-gradient: #fefefe;
+  --verde: #0ACF83;
+}

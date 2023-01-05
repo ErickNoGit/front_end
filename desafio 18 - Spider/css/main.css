@@ -1,0 +1,43 @@
+/* corpo */
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-assista {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--preto);
+  border-radius: 10px 0 0 0;
+  padding: .5rem 1.5rem;
+  margin: 1rem 0;
+  border: solid 1px var(--vermelho);
+  transition: .3s;
+}
+
+.btn-assista:hover {
+  background-color: var(--preto-gradient);
+  gap: 20px;
+}
+
+.btn-assista img {
+  width: 20px;
+}

@@ -1,0 +1,36 @@
+/* resete css do browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, a, div, span, h1, ul, ol, li, h2, h3, h4, h5, h6, img, section, footer, article, aside, main, header, nav {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter';
+}
+
+a {
+  display: block;
+  color: var(--escuro-light);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* class padrão para todo site */
+.flex-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 0.4rem 2rem;
+  margin: 0 auto;
+}
+

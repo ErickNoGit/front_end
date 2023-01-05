@@ -1,0 +1,54 @@
+/* links e logo da paginas */
+nav {
+  display: grid;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  row-gap: 1rem;
+}
+
+.header-div {
+  width: 100%;
+}
+
+.header-div img {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  width: auto;
+}
+
+.header-ul li {
+  display: block;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.btn-entrar {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: var(--green);
+  padding: 5px 12px;
+  font-size: 1rem;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.btn-links {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.btn-links:hover {
+  color: var(--green);
+}

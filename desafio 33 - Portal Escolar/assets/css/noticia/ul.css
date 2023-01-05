@@ -1,0 +1,36 @@
+.ul-flex {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  /* para herdar */
+  font-family: 'Mukta';
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+}
+
+.ul-flex li {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.azul-escuro {
+  background-color: var(--blue-200);
+}
+
+.rosa {
+  background-color: var(--pink);
+}
+
+.azul-claro {
+  background-color: var(--blue);
+}
+
+@media (max-width: 800px) {
+  .ul-flex {
+    display: none;
+  }
+}

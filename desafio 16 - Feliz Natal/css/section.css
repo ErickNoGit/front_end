@@ -1,0 +1,78 @@
+/* seção para doação */
+section {
+  display: block;
+}
+
+.section-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* imagem  */
+.section-span {
+  display: block;
+  max-width: 50%;
+}
+
+/* conteudo */
+
+.div-container {
+  display: grid;
+  max-width: 40%;
+}
+
+.texto-h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1;  
+}
+
+.texto-p {
+  color: var(--gray-200);
+  padding: 1rem 0;
+}
+
+@media (max-width: 800px) {
+  .section-div {
+    justify-content: center;
+  }
+
+  .section-span {
+    display: none;
+  }
+
+  .div-container {
+    display: grid;
+    max-width: fit-content;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-div {
+    text-align: center;
+  }
+
+  .div-container {
+    max-width: max-content;
+    justify-items: center;
+  }
+
+  .texto-h3 {
+    font-size: 2.5rem;
+  }
+
+  .texto-p {
+    padding: .5rem 0;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .texto-h3 {
+    font-size: 1.8rem;
+  }
+}

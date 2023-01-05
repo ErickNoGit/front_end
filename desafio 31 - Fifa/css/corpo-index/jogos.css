@@ -1,0 +1,95 @@
+/* parte de póximos jogos */
+
+section {
+  padding: 2rem 0;
+}
+
+.section-div {
+  flex-direction: column;
+}
+
+.section-h2 {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.section-ol {
+  display: grid;
+  row-gap: 1rem;
+  width: 100%;
+}
+
+.section-ol li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 3px 3px 3px 0px #3C393933;
+}
+
+.div-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  text-align: start;
+}
+
+.section-span {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: .8rem;
+}
+
+.btn-ver-jogos {
+  display: block;
+  margin: 2rem 0;
+  width: 230px;
+  transition: transform .4s;
+}
+
+.btn-ver-jogos:hover {
+  transform: translateY(-8px);
+}
+
+@media (max-width:800px) {
+
+  .div-flex-container {
+    column-gap: 10px;
+    width: auto;
+  }
+
+  .div-flex-container img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .section-span {
+    margin: 10px;  
+  }
+}
+
+@media (max-width:600px) {
+
+  .div-flex-container {
+    display: grid;
+    width: 0 auto;
+    text-align: center;
+  }
+
+  .div-flex-container p {
+   grid-row: 1;
+   margin: 10px;
+  }
+}
+
+@media (max-width:400px) {
+
+  .section-ol li {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,23 @@
+.gray-section {
+  background-color: var(--white-200);
+}
+
+.edit-div-text {
+  display: grid;
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  row-gap: 14px;
+}
+
+.edit-div-text h1 {
+  font-family: 'Mukta';
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.edit-div-text p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3;
+}

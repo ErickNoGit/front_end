@@ -1,0 +1,26 @@
+/* links para cada pasta e arquivo css em assets/css/home/ */
+/* reset, header, footer nessa ordem*/
+@import url('./assets/css/home/global/reset.css');
+@import url('./assets/css/home/global/header.css');
+@import url('./assets/css/home/global/footer.css');
+
+/* corpo/  nessa ordem */
+@import url('./assets/css/home/corpo/main.css');
+@import url('./assets/css/home/corpo/aside-0.css');
+@import url('./assets/css/home/corpo/article.css');
+@import url('./assets/css/home/corpo/section.css');
+@import url('./assets/css/home/corpo/aside-1.css');
+
+/* links para cada pasta e arquivo css em assets/css/noticia/ */
+@import url('./assets/css/noticia/ul.css');
+@import url('./assets/css/noticia/main.css');
+
+/* links para cada pasta e arquivo css em assets/css/curso/ */
+@import url('./assets/css/curso/main.css');
+@import url('./assets/css/curso/sectionEaside.css');
+
+/* links para cada pasta e arquivo css em assets/css/contato/ */
+@import url('./assets/css/contato/section.css');
+
+/* links para cada pasta e arquivo css em assets/css/vagas/ */
+

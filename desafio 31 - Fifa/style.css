@@ -1,0 +1,16 @@
+/* imports de controle global */
+@import url("./css/global/reset.css");
+@import url("./css/global/cores.css");
+
+/* cabeçalho e rodapé padrão home */
+@import url("./css/home/header.css");
+@import url("./css/home/footer.css");
+
+/* corpo da index principal */
+@import url("./css/corpo-index/intro.css");
+@import url("./css/corpo-index/grupo.css");
+@import url("./css/corpo-index/jogos.css");
+
+/* imports do link assistir */
+@import url("./css/link-assistir/aovivo.css");
+@import url("./css/link-assistir/jogo.css");

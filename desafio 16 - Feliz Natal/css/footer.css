@@ -1,0 +1,51 @@
+/* rodapé com as redes */
+
+footer {
+  background-color: var(--white);
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* btn-logo, botão da logo */
+
+.btn-logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.footer-li {
+  border-radius: 50%;
+  background-color: var(--pink);
+  padding: .5rem;
+  transition: .3s;
+}
+
+.footer-li:hover {
+  transform: translateY(-10px);
+}
+
+@media (max-width:700px) {
+  .footer-div {
+    justify-content: center;
+  }
+  
+  .btn-logo-footer {
+    display: none;
+  }
+}

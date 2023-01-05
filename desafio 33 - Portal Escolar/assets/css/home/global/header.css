@@ -1,0 +1,43 @@
+.btn-logo-0 {
+  display: block;
+  width: 150px;
+}
+
+.header-ol {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-red {
+  color: var(--red);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+
+.btn-links {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-ul li {
+  width: 25px;
+}
+
+@media (max-width: 800px) {
+  .header-ul {
+    display: none;
+  }
+
+  .header-ol {
+    display: none;
+  }
+}

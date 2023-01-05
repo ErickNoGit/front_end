@@ -1,0 +1,85 @@
+/* cabeçalho principal */
+/* estrutura padrão, responsivo */
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* btn-logo, botão da logo */
+
+.btn-logo-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.header-ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+}
+
+.btn-list {
+  display: inline-block;
+  padding: 1rem 0;
+  position: relative;
+  font-weight: 500;
+}
+
+.btn-list::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: var(--black-light);
+  position: absolute;
+  transition: .4s;
+}
+
+.btn-list:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .header-nav {
+    flex-direction: column;
+    gap: 20px 0;
+    padding: 1rem 2rem;
+  }
+
+  .header-ol {
+    justify-content: center;
+    gap: 0 30px;
+  }
+
+  .btn-list {
+    background-color: var(--pink-gradient);
+    border-radius: 4px;
+    padding: .5rem;
+    font-weight: 400;
+  }
+
+  .btn-list::after {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .header-ol {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-list {
+    font-size: .8rem;
+  }
+
+}

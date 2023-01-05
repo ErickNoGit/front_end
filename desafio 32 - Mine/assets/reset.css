@@ -1,0 +1,58 @@
+/* resetando o css padrão do Browser e
+definindo variaveis globais */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a, div, span, h1, ul, ol, li, h2, h3, h4, h5, h6, img, section, footer, article, aside, main, header, nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Kufam';
+  background-image: url('../img/Background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* box-shadow: inset -50px -50px 100px 0 linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.7) 50%, rgba(18, 18, 18, 0) 100%); */
+}
+
+#body-div {
+  background-color: rgba(4, 4, 4, 0.434);
+  /* height: 100%;
+  width: 100%; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  transition: .3s;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* variaveis globais de interesse */
+:root {
+  --green: rgba(51, 226, 154, 1);
+  --gray: rgba(65, 65, 65, 1);
+  --dark: rgba(18, 18, 18, 1);
+  --dark-200: rgba(38, 38, 38, 1);
+  --white: rgba(255, 255, 255, 1);
+  --white-200: rgba(186, 172, 172, 1);
+}
+
+@media (max-width: 1500px){
+  body {
+    height: auto;
+  }
+}
