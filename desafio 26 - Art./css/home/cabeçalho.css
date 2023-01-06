@@ -1,0 +1,72 @@
+/* Aqui esta a parte de cima do cabeçalho seguindo padrão CSS */
+.header-div {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+}
+
+.header-nav {
+  width: 75%;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-li {
+ display: flex;
+ align-items: center; 
+}
+
+form {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+label {
+  position: absolute;
+}
+
+#input {
+  background-color: var(--cinza);
+  border: none;
+  width: 500px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+#input:focus{
+  outline-color: var(--azul);
+}
+
+.lupa {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+}
+
+@media (max-width:960px) {
+  input {
+    width: 450px;
+  }
+}
+
+@media (max-width: 850px) {
+  input {
+    display: none;
+  }
+  .lupa  {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=DynaPuff:wght@400;500&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,900&family=Oswald:wght@300;400&family=Roboto:wght@500&family=Rubik&family=Rubik+Marker+Hatch&family=Silkscreen:wght@400;700&display=swap');
+
+@import url("../css/main.css");
+@import url("../css/section.css");
+@import url("../css/footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik';
+}

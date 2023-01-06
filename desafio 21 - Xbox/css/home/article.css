@@ -1,0 +1,49 @@
+/* jogos de entrada */
+article {
+  display: block;
+  margin: 1rem 0;
+}
+
+.article-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.article-ol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.article-ol li {
+  display: block;
+  width: 100%;
+  transition: .5s;
+}
+
+.article-ol li:hover {
+  transform: translateY(-10px);
+}
+
+.article-ol li img {
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .article-ol {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .article-ol {
+    grid-template-columns: 1fr;
+  }
+}

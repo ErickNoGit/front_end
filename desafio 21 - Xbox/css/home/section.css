@@ -1,0 +1,72 @@
+section {
+  display: block;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.section-div {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.section-grid {
+  display: grid;
+  width: 100%;
+  position: relative;
+}
+
+h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.span-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  border-bottom: solid 1px var(--cinza);
+  color: var(--branco);
+  font-weight: 600;
+}
+
+
+.text {
+  color: var(--cinza-claro);
+  font-size: .9rem;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+/* padrões do botão com imagem do vetor */
+
+button {
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+button img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .text {
+    top: 120px;
+  }
+}
+
+@media (max-width: 450px) {
+  .text {
+    top: 180px;
+    font-size: .7rem;
+  }
+}

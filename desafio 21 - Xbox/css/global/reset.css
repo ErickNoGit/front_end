@@ -1,0 +1,49 @@
+/* resetando css e colocando variáveis de cor */
+* {
+  font-family: 'Inter';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: .3s;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li, ol, section, article, div, span, aside, footer, main, img {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: 'Inter';
+  overflow-x: hidden;
+}
+
+.span-cor-verde {
+  color: var(--verde);
+}
+
+/*
+  padrão responsivo:
+  max-width: 1000px;
+  padding: 2rem;
+  margin: 0 auto; 
+*/
+
+:root {
+  --preto: #0C0C0C;
+  --branco: #FFFFFF;
+  --verde: #9BF00B;
+  --verde-branco: #a9f12c;
+  --cinza: #777777;
+  --cinza-claro: #C0C0C0;
+  --cinza-gradient: #67676763;  
+}

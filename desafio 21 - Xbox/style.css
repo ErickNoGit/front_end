@@ -1,0 +1,10 @@
+/* importando APIs */
+@import url("./css/global/reset.css");
+@import url("./css/global/header.css");
+
+/* partes importantes do site em home */
+@import url("./css/home/main.css");
+@import url("./css/home/aside.css");
+@import url("./css/home/article.css");
+@import url("./css/home/section.css");
+@import url("./css/home/footer.css");

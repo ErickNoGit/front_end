@@ -1,0 +1,94 @@
+/* parte de referência, a maioria ggosta de entrar no site para comprar o controle */
+
+aside {
+  display: block;
+  margin: 5rem auto;
+}
+
+.aside-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* container esquerdo */
+.aside-div-grid {
+  display: grid;
+  width: 45%;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.aside-texto {
+  font-weight: 500;
+  padding: 1rem 0;
+  color: var(--cinza-claro);
+  line-height: 1.8;
+}
+
+/* container direito com img */
+.aside-span {
+  width: 40%;
+}
+
+.aside-span img {
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  transition: .4s;
+}
+
+.aside-span img:hover {
+  transform: rotateZ(25deg);
+}
+
+@media (max-width: 800px) {
+
+  aside {
+    margin: 2rem auto;
+  }
+
+  .aside-div-grid {
+    width: 60%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  .aside-div {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .aside-div-grid {
+    width: 60%;
+    margin: 1rem 0;
+  }
+
+  .aside-texto {
+    line-height: normal;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .aside-div-grid {
+    width: auto;
+  }
+
+  .aside-span {
+    width: 80%;
+  }
+}

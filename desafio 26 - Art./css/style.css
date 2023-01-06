@@ -1,0 +1,12 @@
+/* Links de home ou casa principal */
+@import url("./home/utilitarios.css");
+@import url("./home/cabeçalho.css");
+
+/* corpo da página */
+/* Main, parte de entrada */
+@import url("./corpo/corpo.css");
+@import url("./corpo/seçao.css");
+@import url("./corpo/article.css");
+
+/* rodapé da pagina principal */
+@import url("./corpo/footer.css");
