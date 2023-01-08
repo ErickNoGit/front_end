@@ -1,77 +1,52 @@
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: .5rem 1rem;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
-.header-nav ol {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 45%;
+.links-ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  /* para herdar */
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 .btn-acesso {
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: var(--gray);
-    padding: .9rem 0;
-    position: relative;
+  color: var(--gray);
+  padding: 0.625rem 0;
+  position: relative;
 }
 
 .btn-acesso::after {
-    content: '';
-    height: 2px;
-    width: 0px;
-    background-color: var(--gray-light-200);
-    display: block;
-    bottom: 5px;
-    position: absolute;
-    transition: .4s;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--gray-100);
+  position: absolute;
+  bottom: -1px;
 }
 
 .btn-acesso:hover::after {
-    width: 100%;
+  width: 100%;
+  transition: .4s;
 }
 
-@media (max-width: 800px) {
-    .header-nav ol {
-        width: 60%;
-    }
+@media (max-width: 1100px) {
+  .links-ol {
+    width: auto;
+    gap: 20px;
+  }
 }
 
-@media (max-width: 550px) {
-
-    .btn-logo {
-        margin: 1rem 0;
-    }
-
-    .header-nav {
-        flex-direction: column;
-        row-gap: 10px;
-    }
-
-    .header-nav ol {
-        flex-wrap: wrap-reverse;
-        width: auto;
-        column-gap: 16px;
-    }
-
-    .btn-acesso {
-        font-size: 1rem;
-        padding: .5rem;
-        border-radius: 10px;
-        background-color: var(--white-200);
-        border: solid 1px var(--gray-light-200);
-    }
-}
-
-@media (max-width: 400px) {
-    .header-nav ol {
-        flex-direction: column;
-        row-gap: 10px;
-    }
+@media (max-width: 650px) {
+  .links-ol {
+    display: none;
+  }
 }

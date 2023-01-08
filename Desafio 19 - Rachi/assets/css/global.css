@@ -1,10 +1,10 @@
-/* resetar css e definir padrões */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* O padrão será inter */
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -22,32 +22,27 @@ a {
   transition: .3s;
 }
 
-li, ul, ol {
+li,
+ul,
+ol {
   list-style: none;
 }
 
-/* cores  */
 :root {
-  --blue: #37abff;
-  --blue-light: #7fc8fd;
-  --blue-200: #EFF8FF;
+  /* VCC cores */
+  --blue: #0F9AFE;
+  --blue-100: #7fc8fd;
+  --blue-200: #1c83cc;
+
   --white: #FFFFFF;
-  --white-400: #EFFBFF;
+  --white-200: #EFF8FF;
+
   --gray: #6E7275;
-  --gray-light: #DBDBDB;
-  --gray-light-200: #aaaaaa;
+  --gray-100: #DBDBDB;
   --gray-200: #293145;
-}
 
-/* fontes */
-.sora {
-  font-family: 'Sora', sans-serif;
-}
-
-.nunito {
-  font-family: 'Nunito', sans-serif;
-}
-
-.roboto {
-  font-family: 'Roboto', sans-serif;
+  /* VCC fonts */
+  --sora: 'Sora', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+  --roboto: 'Roboto', sans-serif;
 }
