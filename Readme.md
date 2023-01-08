@@ -1,6 +1,6 @@
 # Front-end
 
-//ESSE É UM REPOSITÓRIO DE CONTROLE
+// ESSE É UM REPOSITÓRIO DE CONTROLE
 
 => O professor de Front-end Iuri Silva tem uma comunidade online no discord. O objetivo da comunidade, além repassar informações de aprendizado, é propor desafios aberto ao público.
 
@@ -10,10 +10,10 @@
 
 ## TÓPICOS PRINCIPAIS:
 
--SOBRE PASTAS
--SOBRE ARQUIVOS
--ORDEM DE DESAFIOS
--FERRAMENTAS UTILIZADAS
+- SOBRE PASTAS
+- SOBRE ARQUIVOS
+- ORDEM DE DESAFIOS
+- FERRAMENTAS UTILIZADAS
 
 ### - SOBRE PASTAS:
 

@@ -6,25 +6,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A solução para o seu problema está na Rachi...">
 
     <!-- link das Fonts -->
     <!-- roboto, inter, sora, nunito -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- descrição com link do style.css -->
     <meta name="description" content="site offcial da Rachi soluções">
-    <link rel="shortcut icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./assets/imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <title>Rachi</title>
 </head>
 
 <body>
     <header>
-        <nav class="header-nav">
+        <nav class="navigation">
             <a class="btn-logo" href="./">
                 <img src="./assets/imgs/Logo.svg" alt="logo">
             </a>
@@ -46,9 +45,8 @@
         </nav>
     </header>
 
-    <!-- main em home -->
-    <main id="rachi">
-        <div class="main-div flex-div">
+    <main>
+        <span class="">
             <div class="main-div-texto">
                 <h1 class="sora">Rachi,<br>
                     é tudo que você<br>
@@ -59,13 +57,13 @@
                 </a>
             </div>
 
-            <span>
+            <figure>
                 <img src="./assets/imgs/pc-sobre-pedra.svg" alt="Menino-no-pc">
-            </span>
-        </div>
+            </figure>
+        </span>
     </main>
-    <!-- main 1 corpo 2 -->
-    <main id="funcionalidade" class="main-1">
+
+    <aside id="funcionalidade">
         <h1>Como funciona</h1>
         <div class="tri-caixa-flex">
             <span class="span-flex">
@@ -89,9 +87,9 @@
                 </p>
             </span>
         </div>
-    </main>
-    <!-- section 2 corpo 3 -->
-    <section id="app" class="section-2">
+    </aside>
+
+    <section id="app">
         <div class="grid-2">
             <span class="caixa-1">
                 <h2>Baixe nosso app para desfrutar mais!</h2>
@@ -114,13 +112,13 @@
             </div>
         </div>
     </section>
-    <!-- main 2 corpo 4 -->
-    <main id="planos" class="main-2">
+
+    <article id="planos">
         <h1>Nossos Planos</h1>
         <p class="texto-br-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec<br> lacinia mi quis euismod
             ultrices.</p>
 
-        <div class="grid-main-2">
+        <div class="grid-article-2">
             <span class="caixa-azul">
                 <h3>Bronze</h3>
 
@@ -195,27 +193,10 @@
                 </span>
             </span>
         </div>
-    </main>
-    <!-- article corpo 5 -->
-    <article id="contato" class="article">
-        <div class="div-pai">
-
-            <span>
-                <h1 class="contato">Contato</h1>
-                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                    Donec lacinia mi quis euismod ultrices.</p>
-            </span>
-
-            <div class="email-btn">
-                <p>Seu melhor e-mail</p>
-                <a class="btn-enviar" href="#rachi">Enviar</a>
-            </div>
-
-        </div>
     </article>
-    <!-- footer roda pé -->
-    <footer>
-        <p>Rachi - Todos os direitos reservados.</p>
+
+    <footer id="contato">
+
     </footer>
 </body>
 
