@@ -4,9 +4,9 @@
 
 => O professor de Front-end Iuri Silva tem uma comunidade online no discord. O objetivo da comunidade, além repassar informações de aprendizado, é propor desafios aberto ao público.
 
-=> Esse repositório público será colocado aqui para controle dos desafios. Nenhuma página deve ser publicada na rede (internet), apenas colocada no github, sendo essa uma lei.
+=> Esse repositório público será colocado aqui para controle dos desafios. Nenhuma página deve ser publicada na rede `(internet)`, apenas colocada no `github`, sendo essa uma lei.
 
-=> Esse Readme.md será direcionado a instruir sobre os demais arquivos em geral e lógica de controle de versão sobre cada página. (Sujeito a alterações futuras).
+=> Esse `Readme.md` será direcionado a instruir sobre os demais arquivos em geral e lógica de controle de versão sobre cada página. `(Sujeito a alterações futuras)`.
 
 ## TÓPICOS PRINCIPAIS:
 
@@ -17,9 +17,9 @@
 
 ### - SOBRE PASTAS:
 
-=> As pastas principais do desafio terão um nome padrão, exemplo: 'desafio 01 - nome do desafio'.
+=> As pastas principais do desafio terão um nome padrão, exemplo: `'desafio 01 - nome do desafio'.`
 
-=> Cada desafio seguirá o objetivo destacado no Readme.md. (Dê muita atenção a esse Readme.md e os demais).
+=> Cada desafio seguirá o objetivo destacado no `Readme.md`. (Dê muita atenção a esse `Readme.md` e os demais).
 
 => Todas as pastas de CSS serão definidas e baseadas nas estruturas HTML.
 
@@ -31,7 +31,7 @@
 
 => Os COMENTÁRIOS e arquivos TXT merecem uma atenção DOBRADA, isso dará agilidade na sua manutenção, e facilidade no controle de dados e informações em bugs ou afins.
 
-=> Os arquivos Readme.md devem ser lidos antes do código, cada arquivo Readme.md, nos desafios correspondentes, foram criados para facilitar o entendimento do código, bem como sua organização lógica.
+=> Os arquivos `Readme.md` devem ser lidos antes do código, cada arquivo `Readme.md`, nos desafios correspondentes, foram criados para facilitar o entendimento do código, bem como sua organização lógica.
 
 ### - ORDEM DOS DESAFIOS:
 
