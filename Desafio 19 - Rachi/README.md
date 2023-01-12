@@ -2,7 +2,7 @@
 
 => Essa é uma página de soluções empresariais, seu objetivo é apresentar similaridade com páginas do mesmo tipo.
 
-=> O site será divido em header, main, aside, section, article e footer. Tendo fonte, MediaQuery e cores padrões definidas.
+=> O site será divido em header, main, aside, section, article e footer. Tendo fonte, MediaQuery e cores padrões definidos.
 
 ## TÓPICOS PRINCIPAIS:
 
@@ -23,11 +23,11 @@
 - --nunito: 'Nunito', sans-serif;
 - --roboto: 'Roboto', sans-serif;
 
-=> Fontes utilizadas: 'Inter', 'Nunito', 'Roboto', 'Sora'
+=> Fontes utilizadas: `'Inter'`, `'Nunito'`, `'Roboto'`, 'Sora'
 
 ### OBS.:
 
-=> As fontes acima representam as  variáveis de controle do código, (VCC).
+=> As fontes acima representam as  variáveis de controle do código, `(VCC)`.
 
 => As fontes estarão linkadas no html pelo google-fonts.
 
@@ -48,7 +48,7 @@
 
 ### OBS.:
 
-=> As cores acima representam as  variáveis de controle do código, (VCC).
+=> As cores acima representam as  variáveis de controle do código, `(VCC)`.
 
 => As variaveis com o mesmo nome, mas com 200 nela, representa um tom mais escuro, o 100, nesse sentido mais claro.
 (ex.: azul-200 é azul escuro, azul-100 é mais claro, azul é o padrão.)

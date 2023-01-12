@@ -5,13 +5,14 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 2rem;
+  position: relative;
 }
 
-.links-ol {
+#menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 40%;
+  column-gap: 30px;
   /* para herdar */
   font-size: 1.125rem;
   font-weight: 500;
@@ -21,6 +22,7 @@
   color: var(--gray);
   padding: 0.625rem 0;
   position: relative;
+  text-align: center;
 }
 
 .btn-acesso::after {
@@ -30,7 +32,7 @@
   height: 2px;
   background-color: var(--gray-100);
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
 }
 
 .btn-acesso:hover::after {
@@ -38,15 +40,80 @@
   transition: .4s;
 }
 
-@media (max-width: 1100px) {
-  .links-ol {
-    width: auto;
-    gap: 20px;
-  }
+#botaoMobile {
+  display: none;
 }
 
-@media (max-width: 650px) {
-  .links-ol {
+@media (max-width: 800px) {
+
+  /* quando chegar em 800px, deve aparecer #botaoMobile e #menu deve sumir*/
+  #menu {
+    display: none;
+  }
+
+  #nav.active #menu {
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding: 0 1rem;
+    background-color: var(--white);
+    width: 100%;
+    bottom: -165px;
+  }
+
+  #menu li {
+    padding-left: 1rem;
+    border-bottom: var(--gray-100) solid 1px;
+  }
+
+  /* aparecendo botaoMobile */
+  #botaoMobile {
+    display: flex;
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  #botaoMobile::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--gray-200);
+    color: var(--gray-200);
+  }
+
+  #botaoMobile::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--gray-200);
+    color: var(--gray-200);
+    position: absolute;
+    top: 15px;
+    right: 8px;
+  }
+
+  #botaoMobile span {
+    position: relative;
+  }
+
+  #botaoMobile span::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--gray-200);
+    color: var(--gray-200);
+    position: absolute;
+    top: -7px;
+  }
+
+  /* tirar fantasma do botão */
+  .btn-acesso::after {
     display: none;
   }
 }
