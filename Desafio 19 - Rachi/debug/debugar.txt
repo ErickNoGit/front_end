@@ -1,0 +1,7 @@
+lembretes :
+
+=> falta colocar os valores das imagens em article;
+
+=> terminar o footer
+
+=> ajustar css 

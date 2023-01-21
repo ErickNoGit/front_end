@@ -1,6 +1,6 @@
 # Front-end
 
-// ESSE É UM REPOSITÓRIO DE CONTROLE
+> // ESSE É UM REPOSITÓRIO DE CONTROLE
 
 => O professor de Front-end Iuri Silva tem uma comunidade online no discord. O objetivo da comunidade, além repassar informações de aprendizado, é propor desafios aberto ao público.
 
@@ -60,3 +60,5 @@
 - InteliSense for CSS
 - Material Icon Theme
 - Ommni Theme
+
+> chave SSH desse repositório : git@github.com:ErickNoGit/Front-end.git

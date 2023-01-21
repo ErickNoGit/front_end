@@ -13,15 +13,17 @@
 
 ## - FONTES:
 
-// API DO GOOGLE FONTS EM LINK-
+> // API DO GOOGLE FONTS EM LINK-
 
 => Link: https://fonts.google.com/
 
-// VCC
+> // VCC
 
-- --sora: 'Sora', sans-serif;
-- --nunito: 'Nunito', sans-serif;
-- --roboto: 'Roboto', sans-serif;
+```
+--sora: 'Sora', sans-serif;
+--nunito: 'Nunito', sans-serif;
+--roboto: 'Roboto', sans-serif;
+```
 
 => Fontes utilizadas: `'Inter'`, `'Nunito'`, `'Roboto'`, 'Sora'
 
@@ -33,18 +35,20 @@
 
 ## - CORES:
 
-// VCC
+> // VCC
  
-- --blue: #0F9AFE;
-- --blue-100: #7fc8fd;
-- --blue-200: #1c83cc;
+```
+--blue: #0F9AFE;
+--blue-100: #7fc8fd;
+--blue-200: #1c83cc;
 
-- --white: #FFFFFF;
-- --white-200: #EFF8FF;
+--white: #FFFFFF;
+--white-200: #EFF8FF;
 
-- --gray: #6E7275;
-- --gray-100: #DBDBDB;
-- --gray-200: #293145;
+--gray: #6E7275;
+--gray-100: #DBDBDB;
+--gray-200: #293145;
+```
 
 ### OBS.:
 
@@ -63,7 +67,7 @@
 
 ## - MEDIA-QUERY:
 
-// VALORES DE MEDIA PADRONIZADOS
+> // VALORES DE MEDIA PADRONIZADOS
 
 - 1100px
 - 800px 

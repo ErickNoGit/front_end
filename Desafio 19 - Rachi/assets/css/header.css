@@ -30,7 +30,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background-color: var(--gray-100);
+  background-color: var(--blue-100);
   position: absolute;
   bottom: 0px;
 }
@@ -45,8 +45,6 @@
 }
 
 @media (max-width: 800px) {
-
-  /* quando chegar em 800px, deve aparecer #botaoMobile e #menu deve sumir*/
   #menu {
     display: none;
   }
@@ -112,7 +110,6 @@
     top: -7px;
   }
 
-  /* tirar fantasma do botão */
   .btn-acesso::after {
     display: none;
   }
