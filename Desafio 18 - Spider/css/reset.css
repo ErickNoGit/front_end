@@ -2,86 +2,51 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--sora);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li,
-ul,
-ol,
-nav,
-body,
-a,
-section,
-div,
-span,
-aside,
-button,
-footer,
-main {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: none;
-  font-family: 'Sora';
+body {
+  background-image: url(../img/spider-man-4k.svg);
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 img {
   display: block;
   max-width: 100%;
+  object-fit: contain;
 }
 
-
 a {
-  color: var(--branco);
+  color: var(--white);
   transition: .3s;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
 }
 
-body {
-  background-image: url("../img/spider-man-4k.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.body-div {
-  display: grid;
-  grid-template-columns: auto auto 1fr;
-  grid-template-rows: auto 1fr;
-  height: 100vh;
-}
-
-.grid-a {
-  grid-column: 2 / 6;
-  grid-row: 1;
-  background-color: var(--preto-gradient);
-}
-
-.grid-b {
-  grid-column: 1;
-  grid-row: 1 / -1;
-  background-color: var(--preto-gradient);
-}
-
-.grid-c {
-  grid-column: 2 / 6;
-  grid-row: 2;
-}
-
-
-/* cores padrão */
 :root {
-  --vermelho: #EC111A;
-  --preto: #1D1D1D;
-  --preto-gradient: #191919c5;
-  --branco: #F9F9F9;
-  --branco-gradient: #fefefe;
-  --verde: #0ACF83;
+  --dark: #1D1D1D;
+  --dark-100: #1D1D1D80;
+  --dark-200: #1d1d1d9c;
+
+  --red: #EC111A;
+  
+  --white: #F9F9F9;
+  --white-100: #ffffff;
+  
+  --green: rgb(33, 203, 81);
+  --sora: 'Sora';
+}
+
+@media (max-width: 1000px)  {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+  }
 }

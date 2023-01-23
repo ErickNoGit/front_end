@@ -61,4 +61,8 @@
 - Material Icon Theme
 - Ommni Theme
 
-> chave SSH desse repositório : git@github.com:ErickNoGit/Front-end.git
+- [x] chave desse repositótio;
+
+```
+git@github.com:ErickNoGit/Front-end.git
+```

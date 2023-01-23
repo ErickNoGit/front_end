@@ -1,0 +1,7 @@
+ATENÇÃO:
+
+o body está com display: flex; e justfy-content: center; para todos ficarem no centro depois do header ficar fixado com 'position'.
+
+AVISO :
+
+concertar o media e ajustar quando voltar a trabalhar depois desse commit

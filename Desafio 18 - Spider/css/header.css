@@ -1,52 +1,67 @@
-/* filhos do header */
-.header-div {
+header {
+  background: var(--dark-100);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#regularNavigation {
   display: flex;
-  padding: .2rem 2rem;
   align-items: center;
   justify-content: space-between;
-}
-
-.btn-logo {
-  display: block;
-  margin-left: 2rem;
-}
-
-.btn-logo img {
-  object-fit: contain;
-  display: block;
-}
-
-.header-span {
-  display: block;
-}
-
-.header-span img {
-  object-fit: contain;
-  display: block;
-}
-
-.header-ol {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-.btn-list {
+  max-width: 1100px;
+  margin: 0 auto 0 155px;
+  padding: .8rem 0;
   position: relative;
-  height: 100%;
 }
 
-.btn-list::after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 0;
-  background-color: var(--branco);
+.btn-aranha {
   position: absolute;
-  bottom: 1px;
-  transition: .4s;
+  right: 530px;
 }
 
-.btn-list:hover::after {
-  width: 100%;
+.linkOrdenado {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 25%;
+}
+
+.linkOrdenado li a:hover {
+  color: var(--red);
+}
+
+#botaoMobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+
+  #regularNavigation {
+    margin: 0 auto;
+    padding: .8rem 2rem;
+  }
+  .btn-aranha {
+    right: 450px;
+  }
+}
+
+@media (max-width: 800px) {
+ 
+  .linkOrdenado {
+    display: none;
+  }
+
+  #botaoMobile {
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-aranha {
+    right: 380px;
+  }
 }

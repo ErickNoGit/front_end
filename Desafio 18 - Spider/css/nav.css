@@ -1,58 +1,102 @@
-/* navegação */
-
-.nav-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 100%;
-  padding: 1rem .3rem 2rem .3rem;
-}
-
-.div-grid {
+nav {
   display: grid;
-  gap: 90px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  gap: 100px;
+  min-height: 623px;
+  width: 70px;
+  padding: .6rem .4rem 1rem .4rem;
+  position: relative;
+  z-index: 3;
+  background-color: var(--dark-100);
 }
 
-.btn-login {
+.login {
   width: 40px;
   position: relative;
+  cursor: pointer;
 }
 
-.btn-login::after {
+.login::before {
   content: '';
   display: block;
   width: 8px;
   height: 8px;
-  background-color: var(--verde);
-  border: solid 1px var(--branco-gradient);
+  background: var(--green);
+  border: solid 1px var(--white);
   border-radius: 50%;
   position: absolute;
-  right: 2px;
-  bottom: 2px;
+  bottom: 3px;
+  right: 0;
 }
 
-.nav-ul {
+.acessos {
+  display: grid;
+  align-content: space-between;
+}
+
+.redeSocial {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  list-style: none;
+  gap: 30px;
 }
 
-.nav-ul li a {
-  display: block;
-  width: 20px;
+.imgRede {
+  width: 25px;
 }
 
-.nav-ul li a img {
-  object-fit: contain;
-  display: block;
+
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: auto;
+    width: auto;
+    padding: .2rem 2rem;
+    position: relative;
+    z-index: 3;
+    grid-row: -1;
+  }
+
+  .acessos {
+    display: flex;
+    justify-content: space-between;
+    min-width: 55%;
+  }
+
+  .redeSocial {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-button {
-  background-color: transparent;
-  border: none;
-  width: 20px;
-  cursor: pointer;
+@media (max-width: 800px) {
+  .acessos {
+    min-width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    display: inline-flex;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+  }
+
+  .acessos {
+    display: flex;
+    justify-content: space-between;
+    min-width: auto;
+    width: 70%;
+  }
+
+  .form {
+    grid-column: 2;
+  }
+
 }
