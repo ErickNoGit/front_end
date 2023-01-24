@@ -50,3 +50,10 @@ a {
     height: 100vh;
   }
 }
+
+@media (max-width: 600px)  {
+  body {
+    background-size: cover;
+    background-position: right;
+  }
+}

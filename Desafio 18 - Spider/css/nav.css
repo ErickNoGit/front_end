@@ -48,7 +48,6 @@ nav {
   width: 25px;
 }
 
-
 @media (max-width: 1000px) {
   nav {
     display: flex;
@@ -56,7 +55,7 @@ nav {
     justify-content: space-between;
     min-height: auto;
     width: auto;
-    padding: .2rem 2rem;
+    padding: .2rem 1rem;
     position: relative;
     z-index: 3;
     grid-row: -1;
@@ -98,5 +97,4 @@ nav {
   .form {
     grid-column: 2;
   }
-
 }

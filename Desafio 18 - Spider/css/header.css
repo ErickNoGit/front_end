@@ -38,18 +38,17 @@ header {
 }
 
 @media (max-width: 1000px) {
-
   #regularNavigation {
     margin: 0 auto;
-    padding: .8rem 2rem;
+    padding: .8rem 1rem;
   }
+
   .btn-aranha {
     right: 450px;
   }
 }
 
 @media (max-width: 800px) {
- 
   .linkOrdenado {
     display: none;
   }
@@ -63,5 +62,23 @@ header {
 
   .btn-aranha {
     right: 380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn-aranha {
+    right: 270px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn-aranha {
+    right: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-aranha {
+    right: 140px;
   }
 }
