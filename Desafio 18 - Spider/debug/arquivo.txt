@@ -2,4 +2,6 @@ ATENÇÃO:
 
 o body está com display: flex; e justfy-content: center; para todos ficarem no centro depois do header ficar fixado com 'position'.
 
-media ajustado, fazer JS.
+Terminar JavaScript do botão de login
+
+link do video : https://cdn.cloudflare.steamstatic.com/steam/apps/256915121/movie480_vp9.webm?t=1672784160

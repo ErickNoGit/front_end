@@ -49,8 +49,26 @@ header {
 }
 
 @media (max-width: 800px) {
+
   .linkOrdenado {
     display: none;
+  }
+
+  #regularNavigation.ativado .linkOrdenado {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: var(--dark) solid 1px;
+    background-color: var(--dark-100);
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .linkOrdenado li a {
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
   }
 
   #botaoMobile {
@@ -71,9 +89,9 @@ header {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .btn-aranha {
-    right: 190px;
+    right: 230px;
   }
 }
 

@@ -64,3 +64,15 @@
 ## - MEDIA-QUERY:
 
 > // VALORES DE MEDIA PADRONIZADOS
+
+```
+1000px
+
+800px
+
+600px
+
+500px
+
+400px
+```
