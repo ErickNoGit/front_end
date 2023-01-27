@@ -37,7 +37,7 @@
 
 => Os desafios serão desenvolvidos ao longo do aprendizado. Não é necessário a ordem de iniciação numérica. Portanto, o desafio 03 pode ser mais difícil que o 13 por exemplo.
 
-=> Nem todos os desafios estarão corretos, nesses, estarei dando manutenção.
+> ATENÇÃO: Não é todos os desafios que estão corretos, nesses, estarei dando manutenção.
 
 ### - FERRAMENTAS UTILIZADAS:
 
@@ -61,8 +61,8 @@
 - Material Icon Theme
 - Ommni Theme
 
-- [x] chave desse repositótio;
+> Chave de Clone desse repositótio;
 
 ```
-git@github.com:ErickNoGit/Front-end.git
+git clone https://github.com/ErickNoGit/Front-end.git
 ```
