@@ -1,19 +1,137 @@
-/* rodapé */
-
-footer {
-    background-color: #f4faff;
+#contato {
     text-align: center;
-    padding: 1rem;
-    margin-top: 10px;
 }
 
-footer p {
+.separador {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+    background-image: url(../img/footer/GroupPc.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+}
+
+.contatoEmail {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.contatoEmail h5 {
+    color: var(--white);
+    font-family: var(--sora);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 50px auto 16px;
+}
+
+.contatoEmail p {
+    font-family: var(--inter);
     font-size: 1.1rem;
-    color: #293145;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--gray-100);
+    max-width: 500px;
+    margin: 0 auto 90px;
 }
 
-@media (max-width: 420px) {
-    footer p {
-        font-size: .9rem;
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#seuEmail {
+    padding: 9px 0;
+    background-color: transparent;
+    border-style: none;
+    width: 300px;
+    transition: .4s;
+    border-bottom: solid 2px var(--gray);
+    color: var(--white);
+    font-size: 1rem;
+}
+
+#seuEmail::placeholder {
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: .4s;
+}
+
+#seuEmail:focus::placeholder,
+#seuEmail:active::placeholder {
+    color: var(--gray-100);
+}
+
+#seuEmail:active,
+#seuEmail:focus {
+    border-bottom: solid 2px var(--gray-100);
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btnEnviar {
+    display: inline-block;
+    padding: .5rem 2rem;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--blue);
+    color: var(--white);
+    border: solid 1px var(--blue);
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all .3s;
+}
+
+.btnEnviar:hover {
+    background-color: var(--blue-200);
+    border: solid 1px var(--blue-200);
+}
+
+.btnEnviar:active {
+    background-color: var(--blue-100);
+}
+
+.textoFooter {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+@media(max-width: 550px) {
+
+    .separador {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .contatoEmail p {
+        max-width: max-content;
+        margin: 2rem 0;
+    }
+
+    .formulario {
+        display: grid;
+        width: 100%;
+        gap: 10px;
+    }
+
+    #seuEmail {
+        width: 250px;
+    }
+}
+
+@media(max-width: 300px) {
+    #seuEmail {
+        width: 100px;
     }
 }

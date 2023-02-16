@@ -25,7 +25,7 @@
 --roboto: 'Roboto', sans-serif;
 ```
 
-=> Fontes utilizadas: `'Inter'`, `'Nunito'`, `'Roboto'`, 'Sora'
+=> Fontes utilizadas: `'Inter'`, `'Nunito'`, `'Roboto'`, `'Sora'`
 
 ### OBS.:
 
