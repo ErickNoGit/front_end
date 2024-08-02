@@ -30,6 +30,11 @@ li {
   cursor: pointer;
 }
 
+/* JS */
+.back_color_click {
+  color: #574AE8;
+}
+
 .data {
   color: var(--gray);
 }
